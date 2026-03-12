@@ -1,46 +1,51 @@
-# Solution 03: Proportionality (Universal Law of Gravitation)
+# Solution 02: Systems of Equations (Detailed Steps)
 
 ## 1. Problem Statement
-Consider the Universal Law of Gravitation:
-$$F = G \frac{m_1 m_2}{r^2}$$
-Determine the factor by which the force $F$ changes if:
-- The distance $r$ is **doubled** ($r \to 2r$).
-- Both masses $m_1$ and $m_2$ are **halved** ($m \to \frac{1}{2}m$).
+Find the values of $x$ and $y$ that satisfy both linear equations:
+1.  $$2x + 3y = 12$$
+2.  $$x - y = 1$$
 
 ---
 
-## 2. Step-by-Step Derivation
+## 2. Mathematical Derivation (Substitution Method)
 
-### Step 1: Identify the initial state
-The original force is:
-$$F_{initial} = G \frac{m_1 m_2}{r^2}$$
+To solve this system, we will use the **Substitution Method**, which involves expressing one variable in terms of the other.
 
-### Step 2: Apply the changes to the variables
-Let the new variables be $m_1'$, $m_2'$, and $r'$:
-- $m_1' = \frac{1}{2} m_1$
-- $m_2' = \frac{1}{2} m_2$
-- $r' = 2r$
+### Step 1: Isolate $x$ in the second equation
+It is easier to isolate $x$ in equation (2) because its coefficient is 1:
+$$x - y = 1$$
+Add $y$ to both sides:
+$$\mathbf{x = y + 1} \quad \text{--- (Equation 3)}$$
 
-### Step 3: Substitute the new variables into the formula
-$$F_{new} = G \frac{(\frac{1}{2} m_1) (\frac{1}{2} m_2)}{(2r)^2}$$
+### Step 2: Substitute into the first equation
+Now, replace every $x$ in equation (1) with the expression $(y + 1)$:
+$$2(y + 1) + 3y = 12$$
 
-### Step 4: Simplify the expression
-1. Simplify the numerator: $(\frac{1}{2} \cdot \frac{1}{2}) = \frac{1}{4}$
-2. Simplify the denominator: $(2r)^2 = 4r^2$
+### Step 3: Solve for $y$
+1. **Distribute the 2**: 
+   $$2y + 2 + 3y = 12$$
+2. **Combine like terms** ($2y$ and $3y$): 
+   $$5y + 2 = 12$$
+3. **Isolate the term with $y$**: Subtract 2 from both sides:
+   $$5y = 10$$
+4. **Divide by 5**:
+   $$\mathbf{y = 2}$$
 
-Now substitute them back:
-$$F_{new} = G \frac{\frac{1}{4} m_1 m_2}{4r^2}$$
-
-### Step 5: Factor out the constant change
-$$F_{new} = \left( \frac{1/4}{4} \right) \cdot G \frac{m_1 m_2}{r^2}$$
-$$F_{new} = \left( \frac{1}{16} \right) \cdot F_{initial}$$
+### Step 4: Solve for $x$
+Now that we have the value of $y$, plug it back into **Equation 3**:
+$$x = y + 1$$
+$$x = 2 + 1$$
+$$\mathbf{x = 3}$$
 
 ---
 
-## 3. Final Conclusion
-The gravitational force **decreases** significantly. The new force is **$1/16$** of the original force (it changes by a factor of **0.0625**).
+## 3. Final Result
+The point of intersection for these two lines is:
+$$\mathbf{(x, y) = (3, 2)}$$
 
-**Summary of effects:**
-- Halving both masses reduces the force by a factor of 4.
-- Doubling the distance reduces the force by a factor of 4 (due to the inverse square law $r^2$).
-- Combined effect: $1/4 \times 1/4 = 1/16$.
+---
+
+## 4. Verification (Checking the Solution)
+To ensure the answer is correct, substitute the values back into the original equations:
+- **Equation 1**: $2(3) + 3(2) = 6 + 6 = 12$ ✅ (Correct)
+- **Equation 2**: $3 - 2 = 1$ ✅ (Correct)
