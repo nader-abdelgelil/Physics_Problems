@@ -40,3 +40,8 @@ At $x = 2$, the "velocity" of this function is $14 \text{ units/sec}$.
 * **Derivative ($f'$)**: The rate of change or the slope of the tangent line.
 * **Power Rule**: The shortcut used to solve polynomials easily.
 * **Tangent Line**: A straight line that touches the curve at exactly one point.
+* - To find the slope at $x=2$, we plug the value into the derivative:
+- $f'(2) = 6(2) + 2$
+- $f'(2) = 12 + 2 = 14$
+- This value (14) represents the instantaneous rate of change.
+
